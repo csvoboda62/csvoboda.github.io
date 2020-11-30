@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+
+.fond{
+    min-height: 100vh;
+    background:url(../image/bureau.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title {
+    text-align: center;
+    position: relative;
+    font-family: "Abril Fatface", cursive;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 7px;
+    background:blue;
+    bottom: 0;
+    box-shadow: 0 2px 2px #0000001F;
+}
+.section{
+    margin-top: 20px;
+}
+.center{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cv{
+    height: 1000px;
+}
+
+.contact-logo{
+    height: 50px;
+}
+
+.item-contact{
+    display: inline-block;
+}
+
+.contact-ligne{
+    display: flex;
+}
+.contact-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.font20{
+    font-size: 20px;
+}
+
+.projet{
+    margin-top: 50px;
+}
+.lien-linkedin{
+    color: black;
+}
+.droit{
+    background-color: gray;
+}
